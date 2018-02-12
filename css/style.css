@@ -50,6 +50,28 @@ nav ul li a:hover {
     background: #f5f5dc;
 }
 
+/* article */
+/* article #one {
+  font-family: 'Rounded Mplus 1c';
+  font-size: 80px;
+}
+article #two {
+  font-family: 'Hannari';
+  font-size: 80px;
+} */
+.img-container img {
+  display: block;
+  padding-top: 30px;
+  margin: auto;
+}
+
+article h1 {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Rounded Mplus 1c';
+  font-size: 30px;
+}
+
 /* footer */
 footer {
   position: absolute;
