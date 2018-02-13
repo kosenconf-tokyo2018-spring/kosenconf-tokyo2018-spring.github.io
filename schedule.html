@@ -7,28 +7,18 @@
         <link href="css/style.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>
+        $(function() {
+        $("#header").load("common/header.html");
+        $("#commingsoon").load("common/comingsoon.html");
+        $("#footer").load("common/footer.html");
+        });
+        </script>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="news.html">NEWS</a></li>
-                    <li><a href="schedule.html">SCHEDULE</a></li>
-                    <li><a href="access.html">ACCESS</a></li>
-                    <li><a href="special.html">SPECIAL</a></li>
-                </ul>
-            </nav>
-        </header>
-        <article>
-          <dic class="img-container">
-            <img src="img/sankaku_road_cone_line.png">
-          </div>
-          <h1>現在工事中です。完成までもう少しお待ちください。</h1>
-        </article>
-        <footer>
-          <hr>
-          <a>Copyright &copy; 2018 高専カンファレンスin東京2018春実行委員会 All Rights Reserved</a>
-        </footer>
+      <div id="header"></div>
+      <div id="commingsoon"></div>
+      <div id="footer"></div>
     </body>
 </html>
