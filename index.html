@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta charset="UTF-8" />
@@ -11,18 +11,20 @@
         <script>
         $(function() {
         $("#header").load("common/header.html");
-        $("#commingsoon").load("common/comingsoon.html");
         $("#footer").load("common/footer.html");
         });
         </script>
     </head>
     <body>
         <div id="header"></div>
-        <div id="commingsoon"></div>
-        <div class="news">
-          <!-- <h2>更新情報</h2> -->
-          <p>
-        </div>
+        <article>
+          <div class="news">
+            <h1>更新情報</h1>
+            <div class="textbox">
+              <p id="turai">2018/02/15 本ページを公開しました</p>
+            </div>
+          </div>
+        </article>
         <div id="footer"></div>
     </body>
 </html>
