@@ -92,6 +92,12 @@ article #commingsoon {
   font-family: 'Rounded Mplus 1c';
   font-size: 30px;
 }
+.news #turai {
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: left;
+}
 
 /* footer */
 footer {
