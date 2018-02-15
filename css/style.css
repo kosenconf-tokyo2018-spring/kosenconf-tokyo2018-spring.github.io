@@ -14,6 +14,9 @@ article {
   padding-top: 45px;
   padding-bottom: 100px;
 }
+.top-img img {
+  width:100%;
+}
 
 /* header */
 header, nav, ul, li, h1, h2, p, a {
