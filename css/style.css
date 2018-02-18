@@ -197,3 +197,39 @@ footer hr {
     -moz-opacity: 0.5;
     opacity: 0.5;
 }
+/* timetable */
+.timeTable {
+  clear: both;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+.tableBox {
+  text-align: left;
+}
+table {
+  width: 60%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+}
+th, td {
+  border: 1px solid #fff;
+}
+th {
+  width: 80px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  background-color: #2C3E5C;
+  vertical-align: top;
+}
+td {
+  height: 80px;
+  padding: 0 10px;
+  font-size: 18px;
+  text-align: center;
+  background: #f3f4ef;
+}
