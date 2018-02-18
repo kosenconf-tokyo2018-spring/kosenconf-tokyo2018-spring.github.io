@@ -91,9 +91,26 @@ article .textbox {
   padding: 20px 0;
   text-align: center;
 }
+article .titlebox {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+article .btn-box {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: left;
+}
 .normal {
   text-align: left;
   font-size: 25px;
+}
+.subtitle {
+  text-align: left;
+  font-size: 30px;
+  margin: 50px;
 }
 article #commingsoon {
   text-align: center;
@@ -106,6 +123,32 @@ article #commingsoon {
   padding: 20px 0;
   font-size: 30px;
   text-align: left;
+}
+.mini {
+  border: solid 3px;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-align: center;
+  margin-right: 10px;
+  height: 35px;
+  width: 70px;
+  color: #fff;
+  background-color: green;
+}
+.square_btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #f7f7f7;
+  border-left: solid 6px #ff7c5c;
+  color: #ff7c5c;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.square_btn:active {
+  box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+  transform: translateY(2px);
 }
 
 /* footer */
