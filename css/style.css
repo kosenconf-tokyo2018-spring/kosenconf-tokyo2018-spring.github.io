@@ -91,9 +91,20 @@ article .textbox {
   padding: 20px 0;
   text-align: center;
 }
+article .titlebox {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
 .normal {
   text-align: left;
   font-size: 25px;
+}
+.subtitle {
+  text-align: left;
+  font-size: 30px;
+  margin: 50px;
 }
 article #commingsoon {
   text-align: center;
@@ -106,6 +117,17 @@ article #commingsoon {
   padding: 20px 0;
   font-size: 30px;
   text-align: left;
+}
+.mini {
+  border: solid 3px;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-align: center;
+  margin-right: 10px;
+  height: 35px;
+  width: 70px;
+  color: #fff;
+  background-color: green;
 }
 
 /* footer */
