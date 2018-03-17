@@ -1,51 +1,70 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8" />
-        <title>HOME | 高専カンファレンスin高尾2018公式サイト</title>
 
-        <link href="css/style.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
-        <link rel="icon" href="img/favicon.ico" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script type="text/javascript" src="js/pagetop.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <script>
+<head>
+    <meta charset="UTF-8" />
+    <title>HOME | 高専カンファレンスin高尾2018公式サイト</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+    <link rel="icon" href="img/favicon.ico" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/pagetop.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script>
         $(function() {
-        $("#header").load("common/header.html");
-        $("#footer").load("common/footer.html");
+            $("#header").load("common/header.html");
+            $("#footer").load("common/footer.html");
         });
-        </script>
-    </head>
-    <body>
-        <div id="header"></div>
-        <article>
-          <div class="news">
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <article>
+        <div class="news">
             <h1><i class="far fa-newspaper"></i> 更新情報</h1>
             <div class="textbox">
-              <p id="turai">2018/02/17 参加募集を開始しました</p>
+                <p id="turai">2018/02/17 参加募集を開始しました</p>
             </div>
-          </div>
-          <div class="overview">
+        </div>
+        <div class="overview">
             <h1><i class="fas fa-calendar"></i> 概要</h1>
-            <div class="titlebox">
-              <p class="subtitle"><span class="mini">会場</span>東京工業高等専門学校 5201教室</p>
-              <p class="subtitle"><span class="mini">日程</span>2018年3月31日(土)</p>
-              <p class="subtitle"><span class="mini">時間</span>12:30開場、13:00開始予定</p>
-              <p class="subtitle"><span class="mini">参加費</span>無料(懇親会:500円)</p>
-              <p class="subtitle"><span class="mini">定員</span>LT枠:25人, 通常枠:100人程度</p>
+            <table class="iikanji">
+                <tbody>
+                    <tr>
+                        <th>会場</th>
+                        <td>国立東京工業高等専門学校 5201教室</td>
+                    </tr>
+                    <tr>
+                        <th>日程</th>
+                        <td>2018年3月31日(土)</td>
+                    </tr>
+                    <tr>
+                        <th>時間</th>
+                        <td>12:30開場、13:00開始予定</td>
+                    </tr>
+                    <tr>
+                        <th>参加費</th>
+                        <td>無料(懇親会:500円)</td>
+                    </tr>
+                    <tr>
+                        <th>定員</th>
+                        <td>LT枠:25人, 通常枠:100人程度</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="application">
+                <h1><i class="fas fa-list-alt"></i> 参加登録</h1>
+                <div class="btn-box">
+                    <a href="https://connpass.com/event/79996/" class="square_btn">参加登録はこちらから</a>
+                    <a href="https://connpass.com/event/79997/" class="square_btn">懇親会はこちらから</a>
+                </div>
             </div>
-          </div>
-          <div class="application">
-            <h1><i class="fas fa-list-alt"></i> 参加登録</h1>
-            <div class="btn-box">
-              <a href="https://connpass.com/event/79996/" class="square_btn">参加登録はこちらから</a>
-              <a href="https://connpass.com/event/79997/" class="square_btn">懇親会はこちらから</a>
-            </div>
-          </div>
-        </article>
-        <p class="pagetop"><a href="#wrap">▲</a></p>
-        <div id="footer"></div>
-    </body>
+    </article>
+    <p class="pagetop"><a href="#wrap">▲</a></p>
+    <div id="footer"></div>
+</body>
+
 </html>
