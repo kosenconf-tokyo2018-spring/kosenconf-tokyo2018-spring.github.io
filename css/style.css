@@ -156,7 +156,6 @@ article #commingsoon {
 }
 
 table.iikanji {
-    width: 500px;
     margin: 0 100px;
     border-collapse: collapse;
     border-spacing: 0px 15px;
@@ -172,7 +171,7 @@ table.iikanji th {
     background: #295890;
     vertical-align: middle;
     text-align: left;
-    width: 100px;
+    width: 150px;
     overflow: visible;
     position: relative;
     color: #fff;
@@ -214,7 +213,7 @@ table.iikanji th::after {
 
 table.iikanji td {
     background: #f8f8f8;
-    width: 360px;
+    width: 850px;
     padding-left: 20px;
 }
 
@@ -287,14 +286,14 @@ table.timetable {
 }
 
 table.timetable th {
-    width: 150px;
+    width: 300px;
     padding: 10px;
     font-weight: bold;
     vertical-align: top;
 }
 
 table.timetable td {
-    width: 350px;
+    width: 700px;
     padding: 10px;
     vertical-align: top;
 }
