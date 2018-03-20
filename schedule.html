@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>SCHEDULE | 高専カンファレンスin高尾2018公式サイト</title>
@@ -12,55 +13,112 @@
     <script type="text/javascript" src="js/pagetop.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script>
-        $(function () {
+        $(function() {
             $("#header").load("common/header.html");
             $("#commingsoon").load("common/comingsoon.html");
             $("#footer").load("common/footer.html");
         });
     </script>
 </head>
-    <body>
-      <div id="header"></div>
-      <article>
-        <h1><i class="fas fa-clock"></i> タイムテーブル</h1>
-          <table class="timetable">
-            <tbody>
-              <tr>
-                <th>12:30</th>
-                <td>開場</td>
-              </tr>
-              <tr>
-                <th>13:00</th>
-                <td>Opening Talk</td>
-              </tr>
-              <tr>
-                <th>13:10</th>
-                <td>LT枠①(1人3分間)</td>
-              </tr>
-              <tr>
-                <th>14:10</th>
-                <td>休憩</td>
-              </tr>
-              <tr>
-                <th>14:40</th>
-                <td>LT枠②</td>
-              </tr>
-              <tr>
-                <th>15:40</th>
-                <td>Ending Talk</td>
-              </tr>
-              <tr>
-                <th>16:00</th>
-                <td>懇親会</td>
-              </tr>
-              <tr>
-                <th>17:00</th>
-                <td>閉場</td>
-              </tr>
-            </tbody>
-          </table>
-      </article>
-      <p class="pagetop"><a href="#wrap">▲</a></p>
-      <div id="footer"></div>
-    </body>
+
+<body>
+    <div id="header"></div>
+    <article>
+        <div class="timetable">
+            <h1><i class="fas fa-clock"></i> タイムテーブル</h1>
+            <table class="standard">
+                <tbody>
+                    <tr>
+                        <th>12:30</th>
+                        <td>開場</td>
+                    </tr>
+                    <tr>
+                        <th>13:00</th>
+                        <td>Opening Talk</td>
+                    </tr>
+                    <tr>
+                        <th>13:10</th>
+                        <td>LT枠①(1人3分間)</td>
+                    </tr>
+                    <tr>
+                        <th>14:10</th>
+                        <td>休憩</td>
+                    </tr>
+                    <tr>
+                        <th>14:40</th>
+                        <td>LT枠②</td>
+                    </tr>
+                    <tr>
+                        <th>15:40</th>
+                        <td>Ending Talk</td>
+                    </tr>
+                    <tr>
+                        <th>16:00</th>
+                        <td>懇親会</td>
+                    </tr>
+                    <tr>
+                        <th>17:00</th>
+                        <td>閉場</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="LT-table">
+            <h1><i class="fas fa-th"></i> LT一覧</h1>
+            <table class="option">
+                <thead>
+                    <tr>
+                        <th>発表者</th>
+                        <th id="like-td">タイトル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="like-th">井口のぞ</td>
+                        <td>3分間でできること</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">無能</td>
+                        <td>Codeanywhereで長野をぶん回す方法</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">yukium++</td>
+                        <td>ShellSctiptでイケてる環境構築</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">たき△</td>
+                        <td>SXSWに行ってきたお話</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">モタク</td>
+                        <td>ガイジ工学</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">水無月</td>
+                        <td>ツイッターとの上手な付き合い方</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">たくろーどん</td>
+                        <td>ヘボい技術力でもIoTしたい</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">ながたさん.py</td>
+                        <td>めいどっちぃのはきらいでふ</td>
+                    </tr>
+                    <tr>
+                        <td id="like-th">にしこりさぶろ〜</td>
+                        <td>高専時代に作ったあんなモノやこんなモノ</td>
+                    </tr>
+                    <!-- <tr>
+                        <td id="like-th"></td>
+                        <td></td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <p class="pagetop"><a href="#wrap">▲</a></p>
+    <div id="footer"></div>
+</body>
+
 </html>

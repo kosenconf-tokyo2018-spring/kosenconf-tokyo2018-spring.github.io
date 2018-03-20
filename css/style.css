@@ -275,7 +275,7 @@ footer hr {
 }
 
 
-/* timetable */
+/* table */
 
 table,
 th,
@@ -285,21 +285,63 @@ td {
     line-height: 1.5;
 }
 
-table.timetable {
+table.standard {
     margin: 0 100px;
+    margin-bottom: 20px;
 }
 
-table.timetable th {
+table.standard th {
     width: 300px;
     padding: 10px;
     font-weight: bold;
     vertical-align: top;
 }
 
-table.timetable td {
+table.standard td {
     width: 700px;
     padding: 10px;
     vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background: #d9d9d9;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+}
+
+table.option {
+    margin: 0 100px;
+    margin-bottom: 20px;
+}
+
+table.option th {
+    width: 300px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    background: #3f3f3f;
+    color: #ffffff;
+}
+
+table.option th#like-td {
+    width: 700px;
+}
+
+table.option td {
+    width: 700px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+table.option td#like-th {
+    width: 300px;
 }
 
 tr:nth-child(even) {
