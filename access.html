@@ -13,7 +13,7 @@
     <script type="text/javascript" src="js/pagetop.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script>
-        $(function() {
+        $(function () {
             $("#header").load("common/header.html");
             $("#footer").load("common/footer.html");
         });
@@ -29,10 +29,150 @@
         </div>
         <h1><i class="fas fa-train"></i> 交通アクセス</h1>
         <div class="textbox">
-            <p class="normal">京王電鉄高尾線狭間駅より徒歩5分<br> JR東日本中央線快速高尾駅より徒歩15分
+            <p class="normal">
+                京王電鉄高尾線狭間駅より徒歩5分<br> JR東日本中央線快速高尾駅より徒歩15分
             </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.55853708487!2d139.2968470155735!3d35.63860823991513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191c1be481e4bb%3A0xa7e7367cc6b3fd!2z5p2x5Lqs5bel5qWt6auY562J5bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1518883347599"
-                width="600" height="450" frameborder="0" style="display:block; margin: 30px 0" allowfullscreen></iframe>
+                    width="600" height="450" frameborder="0" style="display:block; margin: 30px 0" allowfullscreen></iframe>
+        </div>
+        <h1>学内案内</h1>
+        <div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';" style="margin:20px">
+            <h2 style="cursor:pointer">正門より来校の場合▼</h2>
+        </div>
+        <div id="open" style="display:none;clear:both;">
+            <table class="standard">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/gate1.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>正門から構内に入り、突き当たりまで直進してください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route1.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>突き当たりを左へ向かってください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route2.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>右手に見える坂を上ってください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route3.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>坂を上まで登ってください。高尾の山を感じられるかと・・・。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route4.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>突き当たりを右へ向かってください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route5.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>しばらく歩くと第4棟入り口があります。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route6.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>先ほどの入り口から建物内へ入り、左手に向かって廊下を歩いてください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route8.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>しばらく歩くと第5棟入り口があります。階段を上がりますと本会会場、5201教室です。</b>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';" style="margin:20px">
+            <h2 style="cursor:pointer">狭間門より来校の場合▼</h2>
+        </div>
+        <div id="open2" style="display:none;clear:both;">
+            <table class="standard">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/gate2.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>構内に入り、階段を下りてください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route2_1.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>そのまま直進してください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route2_2.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>分岐が見えてきます。左側の坂を上ってください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route4.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>そのまま直進してください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route5.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>しばらく歩くと第4棟入り口があります。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route6.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>先ほどの入り口から建物内へ入り、左手に向かって廊下を歩いてください。</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="gate1" src="img/route8.jpg" width="80%" />
+                        </td>
+                        <td>
+                            <b>しばらく歩くと第5棟入り口があります。階段を上がりますと本会会場、5201教室です。</b>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </article>
     <p class="pagetop"><a href="#wrap">▲</a></p>
