@@ -198,7 +198,7 @@ table.iikanji th::after {
 
 table.iikanji td {
     background: #f8f8f8;
-    width: 850px;
+    width: 870px;
     padding-left: 20px;
 }
 
@@ -336,7 +336,7 @@ table.option th#like-td {
 }
 
 table.option td {
-    width: 700px;
+    width: 760px;
     padding: 10px;
     vertical-align: top;
     text-align: center;
